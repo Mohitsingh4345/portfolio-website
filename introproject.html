@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+
+
+   .nav{
+    background-color: rgb(248, 241, 241);
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 0px 20px wheat;
+ }
+
+
+    .navchild{
+        display: flex;
+        margin: 20px;
+        gap: 50%;
+        
+       
+    }
+
+    .navlist1{
+        display: flex;
+        gap: 30px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+    }
+    .navname{
+        color: blue;
+        font-size: 30px;
+        margin-left: 150px;
+        margin-top: 20px;
+    } 
+    .intro{
+        font-size: 30px;
+    }
+     .aboutchild{
+        margin-left: 200px;
+        margin-top: 200px;
+       display: flex;
+       margin-bottom: 200px;
+       background-color: white;
+     }
+
+     .myimage{
+        margin-left: 100px;
+        
+    
+     }
+     .myimage:hover{
+        transform: scale(1.2,1.2);
+        transition: 0.2s;
+        box-shadow: 0px opx 20px rgb(42, 21, 21);
+    
+     }
+     .instagramimg:hover{
+        transform: scale(1.2,1.2);
+        transition: 0.2s;
+
+     }
+     .linkedinimg:hover{
+        transform: scale(1.2,1.2);
+        transition: 0.2s;
+     }
+
+     .snapchatimg:hover{
+        transform: scale(1.2,1.2);
+        transition: 0.2s;
+     }
+
+     .buttonhere{
+        background-color: rgb(61, 53, 212);
+        color: white;
+        padding: 20px;
+        margin: 20px;
+     }
+      .mohitimg{
+        border-radius: 50%;
+      }
+      /* about page */
+      .aboutback{
+        background-color: antiquewhite;
+        padding-bottom: 100px;
+      }
+      .aboutmain{
+        margin-left: 250px;
+        width: 80%;
+      }
+      .aboutmeh1{
+        color: rgba(31, 191, 191, 0.863);
+        margin-top: 20px;
+      }
+
+      .aboutp1{
+        font-size: 30px;
+      }
+       .name{
+        font-size: 10px;
+       } 
+       .bcv{
+        background-color: aqua;
+        margin: 20px;
+        padding: 20px;
+        
+       }
+
+       .lokky{
+        display: flex;
+        
+       }
+       .locationimg{
+        margin-left: 1000px;
+       }
+
+       .projectcont{
+       height: 1000px;
+        width: 100%; 
+        background-color: white;
+      
+       }
+
+       .littlecont{
+        height: 80%;
+        width: 80%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px;
+        margin-right: 80px;
+        
+       }
+       .skill{
+        margin-top: 500px;
+        color: brown;
+        font-size: 30px;
+       }
+       .project1{
+        box-shadow: 2px 2px 10px rgb(173, 158, 158);
+        background-color: rgb(245, 240, 240);
+        width: 20%;
+        height: 300px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        
+       }
+       .project1:hover{
+          transform: scale(1.050,1.050);
+          transition: 0.4s ease-in-out;
+       }
+      .line{
+        width: 90%;
+        background-color: black;
+        height: 5px;
+        box-shadow: 2px 2px 10px wheat;
+
+       }
+       .midline{
+           width: 85%;
+           background-color: aqua;
+           height: 5px;
+       }
+
+       /* my project */
+
+       .project2{
+        box-shadow: 2px 2px 10px rgb(173, 158, 158);
+        background-color: rgb(245, 240, 240);
+        width: 30%;
+        height: 500px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        
+       }
+       .project2:hover{
+          transform: scale(1.050,1.050);
+          transition: 0.4s ease-in-out;
+       }
+
+       .myproject{
+        margin-top: 500px;
+        color: brown;
+        font-size: 30px;}
+        .bproject2{
+          display: flex;
+          gap: 80px;
+        }
+
+        .button5{
+          background-color: rgb(18, 232, 161);
+          color: white;
+          padding: 20px;
+          margin-right: 100px;
+        }
+
+        #contact{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(174, 155, 155);
+
+}
+.contantinfo{
+
+}
+
+.child-contact{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 80px;
+    margin-top: 100px;
+    margin-left: 540px;
+
+}
+
+input[type=text],
+input[type=email],
+input[type=submit],
+textarea{
+    width: 200px;
+    padding: 20px;
+    padding-right: 300px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.form-button{
+    width: 520px;
+    height: 40px;
+    background-color:  rgb(43, 106, 201) ;
+    color: white;
+    border: 0px;
+    border-radius: 10px ;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.info-my{
+    display: flex;
+    gap: 10px;
+    margin: 40px;
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(24, 20, 20);
+}
+
+.footer-child{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+       
+    </style>
+</head>
+<body>
+    <div class="nav"> 
+        <div class="navchild">
+        <div class="navname "> MOHIT SINGH </div>
+      <div class="navlist">  <ul type="none" class="navlist1">
+            <li><a href="#home">home </a></li>
+            <li><a href="#about">about </a></li>
+            <li><a href="#skills">Skills </a></li>
+            <li><a href="#projects">Projects </a></li>
+            <li><a href="#contact">Contact </a></li>
+        </ul>
+         </div>
+        </div>
+    </div>
+      <div class="about" id="home"> 
+        <div class="aboutchild">
+        <div class="intro">
+            <h1> Hi, i'AM MOHIT SINGH</h1>
+            <p class="introp">A Creative Web Developer & Designer</p>
+            
+            <a href="https://www.instagram.com/mohit_singhh_4345?igsh=MjdmNHNrdmRnODdu&utm_source=qr"> <img src="./images/insta.png" alt="" height="80px" width="100px" class="instagramimg"></a>
+            <a href=" https://www.linkedin.com/in/mohit-rajpura-4971a4334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> <img src="./images/inlogo.png.png" alt="" height="80px" width="100px" class="linkedinimg"></a>
+                <a href="https://snapchat.com/t/cHKH0MYZ"> <img src="./images/snap.png" alt="" height="80px" width="100px" class="snapchatimg"></a><br>
+
+                 <button class="buttonhere"> HERE ME</button>
+            </div>
+                
+            
+            <div class="myimage">
+            <img src="./images/ravi.jpg" alt="" height="600px" width="800px" class="mohitimg">
+        </div>
+        </div> 
+
+      </div>
+
+      <!-- ABOUT ME  -->
+
+      <div class="aboutback" id="about">
+
+        <div class="aboutmain"> 
+            <center><h1 class="aboutmeh1">ABOUT ME</h1></center>
+            
+            <h1 class="aboutmeh1"> I'm a Passionate Web Developer</h1>
+            <p class="aboutp1">With over 5 years of experience in web development, I create responsive and innovative web solutions. My expertise lies in front-end technologies and creating user-friendly interfaces that solve real-world problems.</p>
+            
+           <div class="lokky">
+           <div class="name"> 
+           <h1> NAME:</h1> 
+            <br><h2>MOHIT SINGH</h2> <br>
+           <h1> Email: </h1> 
+         <br><h3>mohitsingh12@gmail.com</h3><br>    
+
+          <h1>Location:</h1>
+       <br><h2> sikar rani sati</h2> <br>
+         
+        <button class="bcv"> DOWNLOAD CV</button>
+         </div>  
+
+         <div class="locationimg">  
+          <img src="./images/employeeretention.png" alt="img" height="400px" width="500px">
+         </div>
+        </div>
+
+
+        </div>
+        </div> 
+       
+        <!-- project-->
+
+        <div class="projectcont" id="skills">
+          <div class="skill">  <center><h1>MY SKILLS </h1></center></div>
+          <div class="littlecont">
+            
+            <div class="project1"> 
+              <div class="imghtml"> <img src="./images/html.webp" alt="" height="100px" width="100px"></div>
+              <div class="html5"> <h1>HTML5</h1></div>
+              <div class="line"> 
+
+                <div class="midline"></div>
+              </div>
+               </div>
+
+               <div class="project1"> 
+                <div class="imgcss"> <img src="./images/css.png" alt="" height="100px" width="100px"></div>
+                <div class=""> <h1>CSS3</h1></div>
+                <div class="line"> 
+                  <div class="midline"></div>
+                </div>
+                 </div>
+
+                 <div class="project1"> 
+                  <div class="imgjava"> <img src="./images/javascript.webp" alt="" height="100px" width="100px"></div>
+                  <div class=""> <h1>JAVASCRIPT</h1></div>
+                  <div class="line">
+                    <div class="midline"> </div></div>
+                   </div>
+
+                   <div class="project1"> 
+                    <div class="imgreact"> <img src="./images/react.png" alt="" height="100px" width="100px"></div>
+                    <div class=""> <h1>REACT</h1></div>
+                    <div class="line">
+                      <div class="midline"></div> </div>
+                     </div>
+        
+      
+    
+            </div>
+          </div>
+
+               <!--  MY PROJECT -->
+
+               <div class="projectcont" id="projects">
+                <div class="myproject"><center><h1>MY PROJECT</h1> </center> </div>
+s
+                <div class="littlecont">
+                  
+                  <div class="project2">
+                    <div class="imgproject2"> <img src="./images/project1.png" alt="img" height="250px" width="400px"></div>
+                    <div class="pproject2"> <h1>E-Commerce Platform</h1> <h3>Full-stack web application with React and Node.js</h3></div>
+                    <div class="bproject2"><div> <button class="button5">VIEW PROJECT</button>  </div>
+                  <div class="gitup"> <img src="images/gitup.png" alt="gitup" height="50px " width="50px"></div></div>
+                  </div>
+
+                  <div class="project2">
+                    <div class="imgproject2"> <img src="./images/foodscreenshot.png" alt="img" height="250px" width="400px"></div>
+                    <div class="pproject2"> <h1>E-Commerce Platform</h1> <h3>Full-stack web application with React and Node.js</h3></div>
+                    <div class="bproject2"> <div><button class="button5" >VIEW PROJECT</button>  </div>
+                    <div class="gitup"> <img src="images/gitup.png" alt=" gitup" height="50px " width="50px"></div> </div>
+                    </div>
+                
+
+                  <div class="project2">
+                    <div class="imgproject2"> <img src="./images/project3screenshot.png" alt="img" height="250px" width="400px"></div>
+                    <div class="pproject2"> <h1>E-Commerce Platform</h1> <h3>Full-stack web application with React and Node.js</h3></div>
+                    <div class="bproject2"> <div><button class="button5" >VIEW PROJECT</button>  </div>
+                  <div class="gitup"> <img src="./images/gitup.png" alt=" gitup" height="50px " width="50px"></div> </div>
+                  </div>
+
+                </div>
+
+
+               </div>
+
+               <!-- box -->
+               <div class="Contact" id="contact">
+                <center><h1 style="font-family: sans-serif; font-size: 35px; color:rgb(43, 106, 201);">Contact Me:</h1></center>
+               <div class="child-contact">
+                   <div class="contact-form">
+           
+                       <form action="">
+                           <input type="text" class="text" placeholder="NAME..." required><br>
+                           <input type="email" class="email" placeholder="E-Mail..." required><br>
+                           <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea><br>
+                           <input type="submit">
+                           <!-- <button class="form-button">Send Message</button> -->
+                       </form>
+           
+                   </div>
+                   <div class="contact-info">
+           
+                       <div >
+                           <div  class="info-my"><div><img src="./mail.png" alt="" height="50px" width="50px"></div>
+                           <div><h2>Email:</h2>
+                           <p>mohitsingh12@gmail.com</p></div></div>
+           
+                           <div class="info-my"><div><img src="./telephone.png" alt="" height="50px" width="50px"></div>
+                           <div><h2>Phone:</h2>
+                           <p>7483684345</p></div></div>
+           
+                           <div class="info-my"><div ><img src="./placeholder.png" alt="" height="50px" width="50px"></div>
+                           <div><h2>Location:</h2>
+                           <p>Sikar , Raj.</p></div></div>
+                       </div>
+           
+                   </div>
+               </div>
+           
+           </div>
+           
+           <!-- footer -->
+           
+           <div class="footer">
+               <div class="footer-child">
+                   <div><h3 style="color: white;">© 2024 Alex Rivera. All Rights Reserved.</h3></div>
+                   <div class="logo">
+                    <a href="https://www.instagram.com/mohit_singhh_4345?igsh=MjdmNHNrdmRnODdu&utm_source=qr"> <img src="./images/insta.png" alt="" height="80px" width="100px" class="instagramimg"></a>
+                    <a href=" https://www.linkedin.com/in/mohit-rajpura-4971a4334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> <img src="./images/inlogo.png.png" alt="" height="80px" width="100px" class="linkedinimg"></a>
+                        <a href="https://snapchat.com/t/cHKH0MYZ"> <img src="./images/snap.png" alt="" height="80px" width="100px" class="snapchatimg"></a><br>
+                   </div>
+               </div>
+           </div>
+
+</body>
+</html>
